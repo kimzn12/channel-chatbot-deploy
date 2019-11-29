@@ -41,6 +41,10 @@ def skill():
                                 "label": "전화걸기",
                                 "action": "phone",
                                 "phoneNumber" : "010-7677-5795"
+                            },
+                            {
+                                "label" : "공유하기",
+                                "action" : "share"
                             }
                         ]
                     }
