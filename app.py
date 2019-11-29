@@ -38,9 +38,9 @@ def skill():
                         },
                         "buttons": [
                             {
-                                "label": "naver로 이동하기!",
-                                "action": "weblink",
-                                "webLinkUrl" : "https://naver.com"
+                                "label": "전화걸기",
+                                "action": "phone",
+                                "phoneNumber" : "010-7677-5795"
                             }
                         ]
                     }
