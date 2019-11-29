@@ -25,10 +25,25 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "simpleImage": {
-                        "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
-                        "altText": "로고"
+                    "basicCard": {
+                        "title": "카드의 제목",
+                        "description": "상세 설명",
+                        "thumbnail": {
+                            "imageUrl": "https://cf.festa.io/img/2019-11-14/791369de-e762-4cc1-a341-68ce8c4a467f.png",
+                            "buttons": [
+                                {
+                                    "label": "첫번째 버튼",
+                                    "action": "message",
+                                    "messageText": "첫번쨰 버튼을 눌렀습니다."
+                                }
+                            ]
+                        }
                     }
+
+                    # "simpleImage": {
+                    #     "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
+                    #     "altText": "로고"
+                    # }
                 }
             ]
         }
