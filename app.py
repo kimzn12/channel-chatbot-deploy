@@ -25,14 +25,17 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "simpleText": {
-                        "text": "간단한 텍스트 요소입니다."
+                    "simpleImage": {
+                        "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
+                        "altText": "로고"
                     }
                 }
             ]
         }
     }
     return jsonify(data)
+
+
 
 
 if __name__ == "__main__":
