@@ -9,7 +9,7 @@ def test():
         value_list = ["abc","def"]
     )
     return data
-
+@app.route("/skill",methods = ["GET","POST"])
 def skill():
     data = {
         "version" : "2.0",
