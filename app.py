@@ -29,7 +29,12 @@ def skill():
                         "title": "핫!핫!",
                         "description": "상세 설명",
                         "thumbnail": {
-                            "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg"
+                            "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
+                            "link": {
+                                "mobile": "https://naver.com",
+                                "android": "https://google.com"
+                            }
+
                         },
                         "buttons": [
                             {
