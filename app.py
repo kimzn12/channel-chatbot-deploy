@@ -25,36 +25,55 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "basicCard": {
-                        "title": "핫!핫!",
-                        "description": "상세 설명",
-                        "thumbnail": {
-                            "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
-                            "link": {
-                                "mobile": "https://naver.com",
-                                "android": "https://google.com"
-                            }
-
-                        },
-                        "buttons": [
-                            {
-                                "label": "전화걸기",
-                                "action": "phone",
-                                "phoneNumber" : "010-7677-5795"
-                            },
-                            {
-                                "label" : "공유하기",
-                                "action" : "share"
-                            }
-                        ]
-                    }
-
-
-                    # "simpleImage": {
-                    #     "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
-                    #     "altText": "로고"
+                    # "basicCard": {
+                    #     "title": "핫!핫!",
+                    #     "description": "상세 설명",
+                    #     "thumbnail": {
+                    #         "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
+                    #         "link": {
+                    #             "mobile": "https://naver.com",
+                    #             "android": "https://google.com"
+                    #         }
+                    #
+                    #     },
+                    #     "buttons": [
+                    #         {
+                    #             "label": "전화걸기",
+                    #             "action": "phone",
+                    #             "phoneNumber" : "010-7677-5795"
+                    #         },
+                    #         {
+                    #             "label" : "공유하기",
+                    #             "action" : "share"
+                    #         }
+                    #     ]
                     # }
+
+
+                    "simpleImage": {
+                        "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg",
+                        "altText": "로고"
+                    }
                 }
+            ],
+            "quickReplies":[
+                {
+                    "label": "quick",
+                    "action": "message",
+                    "messageText":"퀵1"
+                },
+                {
+                    "label": "quick2",
+                    "action": "message",
+                    "messageText": "퀵2"
+                },
+                {
+                    "label": "quick3",
+                    "action": "message",
+                    "messageText": "퀵3"
+                }
+
+
             ]
         }
     }
