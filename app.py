@@ -37,8 +37,8 @@ def skill():
                                 "action": "message",
                                 "messageText": "첫번쨰 버튼을 눌렀습니다."
                             }
-                            ]
-                        }
+                        ]
+                    }
 
 
                     # "simpleImage": {
