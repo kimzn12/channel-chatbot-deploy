@@ -26,14 +26,14 @@ def skill():
             "outputs": [
                 {
                     "basicCard": {
-                        "title": "카드의 제목",
+                        "title": "핫!핫!",
                         "description": "상세 설명",
                         "thumbnail": {
                             "imageUrl": "https://www.wikihow.com/images_en/9/9b/Get-the-URL-for-Pictures-Step-2-Version-4.jpg"
                         },
                         "buttons": [
                             {
-                                "label": "첫번째 버튼",
+                                "label": "hot click!",
                                 "action": "message",
                                 "messageText": "첫번쨰 버튼을 눌렀습니다."
                             }
