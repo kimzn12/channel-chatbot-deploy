@@ -38,9 +38,9 @@ def skill():
                         },
                         "buttons": [
                             {
-                                "label": "hot click!",
-                                "action": "message",
-                                "messageText": "첫번쨰 버튼을 눌렀습니다."
+                                "label": "naver로 이동하기!",
+                                "action": "weblink",
+                                "webLinkUrl" : "https://naver.com"
                             }
                         ]
                     }
