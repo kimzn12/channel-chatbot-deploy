@@ -30,12 +30,12 @@ def skill():
                         "description": "상세 설명",
                         "thumbnail": {
                             "imageUrl": "https://cf.festa.io/img/2019-11-14/791369de-e762-4cc1-a341-68ce8c4a467f.png",
-                            "buttons": [
-                                {
-                                    "label": "첫번째 버튼",
-                                    "action": "message",
-                                    "messageText": "첫번쨰 버튼을 눌렀습니다."
-                                }
+                        "buttons": [
+                            {
+                                "label": "첫번째 버튼",
+                                "action": "message",
+                                "messageText": "첫번쨰 버튼을 눌렀습니다."
+                            }
                             ]
                         }
                     }
